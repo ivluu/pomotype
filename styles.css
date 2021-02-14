@@ -1,0 +1,258 @@
+body {
+  background-color: #08222E;
+  color: white;
+  font-family: "Nunito";
+  align: center;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 10px;
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.btn-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+#tasks{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.grid-item {
+  background-color: #08222E;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#timer{
+  font-size: 136px;
+  color: #B7DAEB;
+  padding: 0;
+}
+#settings {
+  /* button */
+  display: inline-block;
+	background-color: white;
+	width:150px;
+	height:52px;
+	border-radius: 100px;
+  border: none;
+  /* button text */
+  color: black;
+	font-family:Nunito;
+	text-align:center;
+	font-size:20px;
+}
+#settings:hover {
+	background-color: #fafafa;
+}
+#settings:focus {
+  outline: none;
+  box-shadow: none;
+}
+#login {
+  /* button */
+  display: inline-block;
+	background-color: #ff671d;
+	width:150px;
+	height:52px;
+	border-radius: 100px;
+  border: none;
+  /* button text */
+  color: white;
+	font-family:Nunito;
+	text-align:center;
+	font-size:20px;
+}
+#login:hover {
+	background-color: #e85d1a;
+}
+#login:focus {
+  outline: none;
+  box-shadow: none;
+}
+#start {
+  /* button */
+  display: inline-block;
+	background-color: white;
+	width:200px;
+	height:72px;
+	border-radius: 57px;
+  border: none;
+  /* button text */
+  color: black;
+	font-family:Nunito;
+	text-align:center;
+	font-size:36px;
+}
+#start:hover {
+	background-color: #f0f0f0;
+}
+#start:focus {
+  outline: none;
+  box-shadow: none;
+}
+#start:active {
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+}
+#reset {
+  /* button */
+  display: inline-block;
+	background-color: #ff671d;
+	width:200px;
+	height:72px;
+	border-radius: 57px;
+  border: none;
+  /* button text */
+  color: white;
+	font-family:Nunito;
+	text-align:center;
+	font-size:36px;
+}
+#reset:hover {
+	background-color: #e85d1a;
+}
+#reset:focus {
+  outline: none;
+  box-shadow: none;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+}
+th, tr, td {
+  padding: 10px;
+}
+h2 {
+  color: #B7DAEB;
+  line-height: 10px;
+}
+label {
+  color: #08222E;
+  font-size: 18px;
+}
+#tHead th {
+  background-color: #B7DAEB;
+}
+.tName {
+  color: #08222E;
+  padding-right: 100px;
+  text-align: left;
+  border-top-left-radius: 10px;
+}
+.pNum{
+  color: #08222E;
+  padding-left: 100px;
+  text-align: right;
+  border-top-right-radius: 10px;
+}
+/* New Task Elements */
+#tsk {
+  background-color: white;
+  border-right: 0px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-bottom: 5px solid  white;
+  border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+#pom {
+  background-color: white;
+  border-left: 0px;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid  white;
+  border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#newTask {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #e3e3e3;
+  border:none;
+  border-radius: 10px;
+}
+#newTask:active {
+  outline: none;
+  box-shadow: none;
+}
+#newTask:focus {
+  outline: none;
+  box-shadow: none;
+}
+#newPomo {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  width: 50px;
+  background-color: #e3e3e3;
+  border:none;
+  border-radius: 10px;
+}
+#newPomo:active {
+  outline: none;
+  box-shadow: none;
+}
+#newPomo:focus {
+  outline: none;
+  box-shadow: none;
+}
+#clrbtn {
+  width: 70px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 57px;
+  border: none;
+}
+#clrbtn:hover {
+  outline: none;
+  box-shadow: none;
+}
+#clrbtn:active {
+  outline: none;
+  box-shadow: none;
+}
+#clrbtn:focus {
+  outline: none;
+  box-shadow: none;
+}
+#addbtn {
+  width: 70px;
+  height: 25px;
+  background-color: green;
+  color: white;
+  border-radius: 57px;
+  border: none;
+}
+#addbtn:hover {
+  outline: none;
+  box-shadow: none;
+}
+#addbtn:active {
+  outline: none;
+  box-shadow: none;
+}
+#addbtn:focus {
+  outline: none;
+  box-shadow: none;
+}
